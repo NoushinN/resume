@@ -5,6 +5,8 @@ output: html_document
 
 This is a template example for making a colorful curriculum vitae or résumé using RMarkdown and RStudio. You can use this template to use R and RMarkdown capabilities to make a fun curriculum vitae or résumé.
 
+This template uses the [vitae](https://cran.r-project.org/web/packages/vitae/vignettes/vitae.html) library.
+
 
 ### Usage
 
