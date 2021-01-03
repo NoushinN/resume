@@ -1,10 +1,11 @@
 name: "cv-résumé"
 navbar:
-  title: "cv/résumé"
+  title: "cv-résumé"
   left:
-    - text: "résumé"
-      href: make_resume.html
     - text: "Home"
       href: index.html
+    - text: "Résumé"
+      href: make_resume.html
+
 output_dir: "_site"
 

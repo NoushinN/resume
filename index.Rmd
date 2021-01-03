@@ -1,5 +1,5 @@
 ---
-title: "Making a curriculum vitae or a résumé"
+title: "cv-résumé"
 output: html_document
 ---
 
