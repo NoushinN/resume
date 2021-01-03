@@ -6,4 +6,5 @@ navbar:
       href: make_resume.html
     - text: "Home"
       href: index.html
+output_dir: "_site"
 

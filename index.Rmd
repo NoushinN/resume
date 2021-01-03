@@ -1,5 +1,6 @@
 ---
 title: "Making a curriculum vitae or a résumé"
+output: html_document
 ---
 
 
