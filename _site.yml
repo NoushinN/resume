@@ -1,9 +1,9 @@
-name: " curriculum vitae-resume"
+name: "cv-résumé"
 navbar:
-  title: "making a curriculum vitae/resume"
+  title: "cv/résumé"
   left:
-    - text: "CV"
-      href: CV.html
+    - text: "résumé"
+      href: make_resume.html
     - text: "Home"
-      href: README.html
+      href: index.html
 
