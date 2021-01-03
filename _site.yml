@@ -1,2 +1,8 @@
-markdown:   kramdown
-style:  kjhealy
+name: "my resume"
+navbar:
+  title: "making a resume"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
