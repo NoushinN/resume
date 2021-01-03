@@ -10,13 +10,14 @@ This template uses the [vitae](https://cran.r-project.org/web/packages/vitae/vig
 
 ### Usage
 
-Fork this [repo](https://github.com/NoushinN/resume) and edit the `make_resume.Rmd` in rmd_file folder.
+Fork this [repo](https://github.com/NoushinN/resume) and edit the `make_resume.Rmd` in rmd_file folder.  
 
-You can either edit the `make_resume.Rmd` file [directly in Github](https://github.com/NoushinN/resume/blob/main/rmd_file/make_resume.Rmd) or edit from your computer terminal in a RStudio IDE environment and render in either HTML or PDF. 
+You can either edit the `make_resume.Rmd` file [directly in Github](https://github.com/NoushinN/resume/blob/main/rmd_file/make_resume.Rmd) or edit from your computer terminal in a RStudio IDE environment and render in either HTML or PDF.   
 
-An example is shown below:
+An example is shown below:   
 
-![Example output](rmd_file/example.png)
+![](rmd_file/example.png)
+
 
 #### Author
 
