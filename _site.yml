@@ -6,9 +6,9 @@ navbar:
   title: "cv-résumé"
   left:
     - text: "Home"
-      href: index.html
+      href: index.pdf
     - text: "Résumé"
-      href: make_resume.html
+      href: make_resume.pdf
 
-output_dir: "_site"
+output_dir: "site"
 
