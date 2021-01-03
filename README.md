@@ -1,6 +1,10 @@
-# Making a curriculum vitae
+---
+title: "Making a curriculum vitae or a resume"
+---
 
-A template for making a colorful curriculum vitae.  
+
+A template for making a colorful curriculum vitae or resume.  
+
 
 ## Usage
 
