@@ -1,13 +1,14 @@
 name: "cv-résumé"
 output:
+  html_document: default
   pdf_document: default
 navbar:
   title: "cv-résumé"
   left:
     - text: "Home"
-      href: index.pdf
+      href: index.html
     - text: "Résumé"
       href: make_resume.pdf
 
-output_dir: "site"
+output_dir: "docs"
 

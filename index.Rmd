@@ -1,6 +1,6 @@
 ---
 title: "Home"
-output: pdf_document
+output: html_document
 ---
 
 
