@@ -1,15 +1,15 @@
 ---
-address: Victoria, BC
+address: Victoria,BC
 date: "`r format(Sys.time(), '%B %Y')`"
-email: nabavi.noushin@gmail.com
+email: nabavi.noushin@xyz.com
 github: noushinn
 linkedin: noushin-nabavi-56b27b13
-name: Noushin Nabavi, PhD
-output: pdf_document
-phone: +1 778-999-1982
+name: Noushin Nabavi
+phone: +1-888-999-1998
 position: Economist
 twitter: nabavinoushin
 www: noushinn.github.io
+output: vitae::awesomecv
 ---
   
 ```{r setup, include=FALSE}
@@ -27,20 +27,31 @@ library(tidyverse)
 •	Service-oriented team player dedicated to delivering quality services and gaining the trust of clients and stakeholders  
 
 
+
 # Education
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
   "Certifications", "Data Camp", "Online", "2018-2019", "Data Analytics using R",  
-  "Certifications", "Mitacs Inc.", "University of British Columbia", "2017-2019", "Project Management and Agile Transformation",  
+  
+  "Certifications", "Mitacs Inc", "University of British Columbia", "2017-2019", "Project Management and Agile Transformation",  
+  
   "Certifications", "Yale Centre for Integration of Teaching and Learning", "Online Summer Institute for Teaching", "2018", "Teaching best practices",  
+  
   "mini-MBA", "University of British Columbia", "Vancouver, BC, Canada", "2018", "Business Administration for Academics",  
+  
   "Doctor of Philosophy", "University of Toronto", "Toronto, ON, Canada", "2005-2011", "Cell and Systems Biology",  
+  
   "Bachelor of Science", "University of Toronto", "Toronto, ON, Canada", "2001-2005", "Honors in Cell and Molecular Biology"  
   
 ) %>% 
-  detailed_entries(degree, dates, uni, loc, details)
+  detailed_entries(what = degree, 
+                   with = details, 
+                   when = dates, 
+                   why = uni, 
+                   where = loc)
 ```
+
 
 # Professional Experiences
 ```{r}
@@ -61,7 +72,11 @@ tribble(
   
 ) %>% 
   
-  detailed_entries(role, dates, company, loc, details)
+  detailed_entries(what = role, 
+                   when = dates, 
+                   with = company, 
+                   where = loc, 
+                   why = details)
 
 ```
 
@@ -125,6 +140,9 @@ tribble(
 
 ) %>%
   
-  detailed_entries(from, location, award, year)
+  detailed_entries(what = from, 
+                   where = location, 
+                   with = award, 
+                   when = year)
 ```
 
