@@ -16,3 +16,14 @@ You can either edit the `make_resume.Rmd` file [directly in Github](https://gith
 You can also add other sections to make this a longer version or a curriculum vitae. 
 
 The deployed version is here: https://noushinn.github.io/resume/
+
+
+#### Author
+
+Noushin Nabavi, PhD.  
+[Twitter](http://twitter.com/nabavinoushin)  | [Github](http://github.com/NoushinN) | [Website](https://noushinn.github.io)  
+
+
+##### License
+
+[MIT License](https://github.com/NoushinN/resume/blob/main/LICENSE)
